@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { of, Subject, Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
-const WORDPRESS_URL = 'https://testing-ng-proj.000webhostapp.com/wp-json/wp/v2';
+const WORDPRESS_URL = 'https://public-api.wordpress.com/wp/v2/sites/taika.my';
 
 const POSTS_URL = '/posts';
 
